@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Instituto Nacional Ernesto Flores, El Triunfo, Usulután. Conoce nuestros programas educativos y recursos.">
+    <title>Instituto Nacional Ernesto Flores</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="barra_navegacion" id="inicio">
+        <a class="marca_barra" href="#inicio" aria-label="INEF, inicio">
+            <img src="Logos,Imagenes/INEF%20Logo.jpg" alt="Escudo del Instituto Nacional Ernesto Flores">
+            <span class="Letras-titulo">Instituto Nacional "Ernesto Flores"</span>
+        </a>
+        <input class="checkbox_menu_navegacion" id="menu-toggle" type="checkbox" aria-label="Menú de navegación">
+        <label class="toggle_barra" for="menu-toggle" aria-hidden="true">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+        <nav class="navegacion_barra" id="nav-principal" aria-label="Navegación principal">
+            <ul class="enlaces_barra">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#noticias">Noticias</a></li>
+                <li><a href="#programas">Oferta académica</a></li>
+                <li><a href="#mision-vision">Misión y visión</a></li>
+                <li><a href="#valores">Valores</a></li>
+                <li><a href="#calendario">Calendario</a></li>
+                <li><a href="#contactos">Contactos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="contenedor_medio">
+        <aside class="barra_lateral" aria-labelledby="side-news-title">
+            <h2 class="titulo_lateral" id="side-news-title">Noticias</h2>
+            <p class="descripcion_noticias_lateral">Avisos y novedades del Instituto Nacional Ernesto Flores.</p>
+            <a href="#noticias">Ver noticias</a>
+        </aside>
+        <section class="contenido_principal" aria-labelledby="welcome-title">
+            <header class="banner_principal">
+                <div class="contenido_banner_principal">
+                    <p class="etiqueta">El Triunfo · Usulután</p>
+                    <h1 id="welcome-title">Instituto Nacional Ernesto Flores</h1>
+                    <p class="descripcion_banner_principal">Conoce nuestra oferta académica y recursos educativos.</p>
+                </div>
+                <div class="carrusel-container" role="region" aria-label="Galería de las instalaciones del instituto">
+                    <input type="radio" name="carrusel-instalaciones" id="instalacion-1" aria-label="Mostrar foto 1" checked>
+                    <input type="radio" name="carrusel-instalaciones" id="instalacion-2" aria-label="Mostrar foto 2">
+                    <input type="radio" name="carrusel-instalaciones" id="instalacion-3" aria-label="Mostrar foto 3">
+                    <input type="radio" name="carrusel-instalaciones" id="instalacion-4" aria-label="Mostrar foto 4">
+                    <input type="radio" name="carrusel-instalaciones" id="instalacion-5" aria-label="Mostrar foto 5">
+                    <input type="radio" name="carrusel-instalaciones" id="instalacion-6" aria-label="Mostrar foto 6">
+                    <input type="radio" name="carrusel-instalaciones" id="instalacion-7" aria-label="Mostrar foto 7">
+                    <div class="carrusel-slide">
+                        <div class="slide"><img src="Instalaciones/Instalaciones 1.webp" alt="Jardín y áreas verdes del instituto"></div>
+                        <div class="slide"><img src="Instalaciones/Instalaciones 2.webp" alt="Actividad cultural en las instalaciones del instituto"></div>
+                        <div class="slide"><img src="Instalaciones/Instalaciones 5.webp" alt="Estudiantes durante una actividad académica"></div>
+                        <div class="slide"><img src="Instalaciones/Instalaciones 6.webp" alt="Estudiantes trabajando en el área agropecuaria"></div>
+                        <div class="slide"><img src="Instalaciones/Instalaciones 7.webp" alt="Jornada de trabajo y apoyo comunitario"></div>
+                        <div class="slide"><img src="Instalaciones/Instalciones 4.jpg" alt="Entrada y jardines del instituto"></div>
+                        <div class="slide"><img src="Instalaciones/unnamed.webp" alt="Patio y áreas verdes del instituto"></div>
+                    </div>
+                    <div class="carrusel-navegacion" aria-label="Seleccionar foto">
+                        <label for="instalacion-1" class="nav-dot" aria-label="Foto 1"></label>
+                        <label for="instalacion-2" class="nav-dot" aria-label="Foto 2"></label>
+                        <label for="instalacion-3" class="nav-dot" aria-label="Foto 3"></label>
+                        <label for="instalacion-4" class="nav-dot" aria-label="Foto 4"></label>
+                        <label for="instalacion-5" class="nav-dot" aria-label="Foto 5"></label>
+                        <label for="instalacion-6" class="nav-dot" aria-label="Foto 6"></label>
+                        <label for="instalacion-7" class="nav-dot" aria-label="Foto 7"></label>
+                    </div>
+                </div>
+            </header>
+            <section class="tarjetas_contenido tarjetas_contenido--tres" aria-label="Contenido institucional y noticias">
+                <article class="tarjeta_contenido">
+                    <span class="etiqueta_tarjeta">Instituto</span>
+                    <h3>Contenido</h3>
+                    <p>Mensaje de la institución.</p>
+                </article>
+                <article class="tarjeta_contenido" id="avisos">
+                    <span class="etiqueta_tarjeta">Comunicados</span>
+                    <h3>Avisos</h3>
+                    <p>Avisos importantes para la comunidad educativa.</p>
+                </article>
+                <article class="tarjeta_contenido" id="noticias">
+                    <span class="etiqueta_tarjeta">Actualidad</span>
+                    <h3>Noticias</h3>
+                    <p>Avisos y novedades del Instituto Nacional Ernesto Flores.</p>
+                </article>
+            </section>
+            <section class="grupo_programas" id="programas" aria-labelledby="bachilleratos-title">
+                <h2 id="bachilleratos-title">Bachilleratos</h2>
+                <div class="tarjetas_contenido tarjetas_contenido--cuatro">
+                    <article class="tarjeta_contenido">
+                        <h3 class="titulo-tarjeta">Bachillerato General</h3>
+                        <p class="modalidad-1">Es una modalidad de educación formal. Nuestro plan de estudios forma en nuestros jóvenes una cultura general, que comprende aspectos de las ciencias, humanidades y tecnologías, a partir de la cual se adquieren los elementos fundamentales para la construcción de nuevos aprendizajes. Este diseño proporciona los conocimientos, métodos, técnicas y lenguajes necesarios para ingresar a estudios superiores, desempeñándose de manera eficiente.</p>
+                    </article>
+                    <article class="tarjeta_contenido">
+                        <h3 class="titulo-tarjeta">Bachillerato Técnico Administrativo Contable</h3>
+                        <p class="modalidad-2">El Bachillerato Técnico Vocacional Administrativo Contable, es un técnico de nivel medio donde adquieras conocimientos de los sistemas de control interno, Contabilidad, Administración de los distintos sectores que conforman la economía, producto de exportación y desarrollo de actividades de su profesión que le permitan desempeñarse en forma autónoma. Podrás desempeñarte en los siguientes ámbitos: Ventas, administración, contabilidad, caja, planillas, inventarios, call center, publicidad, control de bodegas, entre otras.</p>
+                    </article>
+                    <article class="tarjeta_contenido">
+                        <h3 class="titulo-tarjeta">Técnico en Desarrollo de Software</h3>
+                        <p class="modalidad-3">En el Bachillerato Desarrollo de Software podrás desenvolverte en los siguientes campos: venta de soluciones de software, soporte para mantenimiento de aplicaciones, capacitación para el desarrollo de software, control de calidad en pruebas de aplicaciones, además podrás desarrollar aplicaciones y páginas web, diseño gráfico, utilización de impresoras 3D y otros.</p>
+                    </article>
+                    <article class="tarjeta_contenido">
+                        <h3 class="titulo-tarjeta">Técnico en Productivo Agropecuario</h3>
+                        <p class="modalidad-4">Ofrece al estudiante conocimientos del agro en diferentes ámbitos: Cunícola, avícola, porcino, apícola, Ornamentales, preparación de Suelos, manejo de cultivos agroindustriales, almacenamiento, procesamiento y comercialización de cultivos perennes, diseño y ejecución de proyectos, manejo de equipo y maquinaria agroindustrial, frutales, viveros, huertos, procesamiento de alimentos, además se incentiva al uso de la tecnología.</p>
+                    </article>
+                </div>
+            </section>
+            <section class="grupo_programas" id="mision-vision" aria-labelledby="institucional-title">
+                <h2 id="institucional-title">Información institucional</h2>
+                <div class="tarjetas_contenido tarjetas_contenido--cuatro">
+                    <article class="tarjeta_contenido">
+                        <span class="etiqueta_tarjeta">Instituto</span>
+                        <h3>Misión</h3>
+                        <p>Somos un centro educativo líder en la investigación, profesionalización y ejecución de proyectos, basado en la planificación por competencias, para mejorar su entorno ambiental, calidad, capacidad crítica y reflexiva, y transformar la sociedad, logrando una excelencia académica, calidad humana y la preparación para la vida.</p>
+                    </article>
+                    <article class="tarjeta_contenido">
+                        <span class="etiqueta_tarjeta">Instituto</span>
+                        <h3>Visión</h3>
+                        <p>Ser un centro educativo líder en la organización, ambiente agradable, con tecnología innovadora, alto rendimiento académico, excelente actitud disciplinaria y competente en la investigación, profesionalización y ejecución de proyectos funcionales.</p>
+                    </article>
+                    <article class="tarjeta_contenido" id="valores">
+                        <span class="etiqueta_tarjeta">Comunidad</span>
+                        <h3>Valores</h3>
+                        <p>Principios que orientan la convivencia y el aprendizaje.</p>
+                    </article>
+                    <article class="tarjeta_contenido" id="calendario">
+                        <span class="etiqueta_tarjeta">Actividades</span>
+                        <h3>Calendario</h3>
+                        <p>Fechas y actividades académicas.</p>
+                    </article>
+                </div>
+            </section>
+        </section>
+    </main>
+    <footer class="pie_pagina" id="contactos">
+        <div class="info_pie">
+            <div class="fila_pie">
+                <details class="desplegable_contactos">
+                    <summary>Contactos</summary>
+                    <div class="menu_contactos">
+                        <ul class="lista_contactos">
+                            <li><strong>Facebook:</strong> <a href="#">INEF</a></li>
+                            <li><strong>WhatsApp:</strong> 7923 3650</li>
+                            <li><strong>Correo electrónico:</strong> info.inef@gmail.com</li>
+                            <li><strong>Dirección:</strong> Final 7a. Av. Norte, Col. Las Flores, Usulután Norte, Distrito El Triunfo.</li>
+                        </ul>
+                    </div>
+                </details>
+
+                <details class="desplegable_contactos desplegable_enlaces">
+                    <summary>Enlaces educativos</summary>
+                    <div class="menu_contactos">
+                        <ul class="lista_contactos lista_enlaces">
+                            <li>
+                                <a class="enlace_con_logo" href="https://classroom.google.com/">
+                                    <img class="logo_enlace" src="Logos,Imagenes/descarga.jpg" alt="Logo de Classroom">
+                                    <span>Classroom</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="enlace_con_logo" href="https://fictionexpress.com/">
+                                    <img class="logo_enlace" src="Logos,Imagenes/Logo fiction.png" alt="Logo de Fiction Express">
+                                    <span>Fiction Express</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="enlace_con_logo" href="https://www.kira-learning.com/">
+                                    <img class="logo_enlace" src="Logos,Imagenes/Logo kira.jpg" alt="Logo de Kira">
+                                    <span>Kira</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="enlace_con_logo" href="https://soporte-crest.mined.gob.sv/soportev2/login/login_google">
+                                    <img class="logo_enlace" src="Logos,Imagenes/Logo Enlaces.png" alt="Logo de Enlaces.sv">
+                                    <span>Enlaces.sv</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </details>
+            </div>
+            <p>Derechos de autor © Luis Enrique Carranza | Victor Enmanuel Ventura</p>
+        </div>
+    </footer>
+</body>
+</html>
